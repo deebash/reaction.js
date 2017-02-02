@@ -33,7 +33,7 @@
 			var targetBottom = parseInt(document.getElementById(target).offsetTop) + parseInt(document.getElementById(target).offsetHeight);	  
 			var overlap = !(idRight < targetLeft || idLeft > targetRight || idBottom < targetTop || idTop > targetBottom);			
 			return overlap;			
-        
+		}
 		
 		
 		
